@@ -1,0 +1,24 @@
+.admin {
+  max-width: 320px;
+  margin: auto;
+  padding: 1rem;
+  background-color: aliceblue;
+}
+.admin h2 {
+  margin-bottom: 1rem;
+}
+.admin input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.admin label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.admin input[type="checkbox"] {
+  width: 20px;
+}
+.admin label {
+  width: 100px;
+}

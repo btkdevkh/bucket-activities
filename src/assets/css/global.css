@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  font-family: "League Spartan", sans-serif;
+}
+img {
+  width: 100%;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+li {
+  list-style-type: none;
+}
+
+.container-fluid {
+  height: calc(100vh - 70px);
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+input[type="submit"] {
+  font-family: inherit;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #0ea6ab;
+  cursor: pointer;
+}
+
+.row {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#dream-buckets {
+  padding: 1rem;
+  height: 50vh;
+  overflow-y: auto;
+  background-color: #eee;
+  border-bottom: 3px solid #e04006;
+}
+#google-map {
+  position: relative;
+  height: 50vh;
+}
+.reset-map {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3rem 0.6rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+  z-index: 1;
+}
+
+@media (min-width: 850px) {
+  .row {
+    grid-template-columns: 25% 75%;
+  }
+  #dream-buckets {
+    height: 100%;
+    overflow-y: auto;
+    border-bottom: unset;
+  }
+  #google-map {
+    height: 100%;
+  }
+}

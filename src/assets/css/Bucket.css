@@ -1,0 +1,63 @@
+.bucket {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 5px #000;
+}
+.bucket h3 {
+  margin-bottom: 1rem;
+}
+.bucket .img-container {
+  margin-bottom: 0.5rem;
+}
+.bucket .btns {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.8rem;
+}
+.bucket .btns div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+.bucket .start {
+  margin-bottom: 1rem;
+  background-color: #4d6c9e;
+  border: 0;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+.bucket .visit {
+  border: 0;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #333;
+  background-color: transparent;
+}
+.bucket .infos {
+  background-color: transparent;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #333;
+}
+.bucket .infos:hover,
+.bucket .visit:hover {
+  color: #fff;
+  background-color: #333;
+}
+.bucket .infos a {
+  color: #000;
+  text-decoration: none;
+}
+
+.bucket .infos:hover a {
+  color: #fff;
+}
+.start.done {
+  background-color: #c2c1c1;
+}
